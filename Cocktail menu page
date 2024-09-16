@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cocktail Brand - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Cocktail Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu" class="section">
+        <h2>Our Signature Cocktails</h2>
+        <div class="cocktail-grid">
+            <div class="cocktail">
+                <img src="dragon-breath.jpg" alt="Tequila Dragon's Breath">
+                <h3>Tequila Dragon's Breath</h3>
+                <p>A fiery fusion of tequila, dragon fruit, and smoky bitters.</p>
+            </div>
+            <div class="cocktail">
+                <img src="matcha-yuzu-fizz.jpg" alt="Matcha Yuzu Fizz">
+                <h3>Matcha Yuzu Fizz</h3>
+                <p>A refreshing burst of matcha, yuzu, and gin fizz.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Brand Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
