@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cocktail Brand - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Cocktail Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <img src="team-photo.jpg" alt="Our Team">
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>Founded by a passionate mixologist, we believe cocktails are a form of art. We craft sensory experiences that elevate events.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Brand Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
