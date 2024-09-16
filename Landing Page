@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cocktail Brand</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Cocktail Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landing Section -->
+    <section id="home">
+        <h1>Welcome to [Your Brand Name]</h1>
+        <p>Unique, artistic cocktails for parties and events. Elevate your event with our creative drink experiences.</p>
+        <a href="#menu" class="cta-button">Explore Our Menu</a>
+    </section>
+
+    <!-- Cocktail Menu -->
+    <section id="menu">
+        <h2>Our Signature Cocktails</h2>
+        <div class="cocktail-grid">
+            <div class="cocktail">
+                <img src="dragon-breath.jpg" alt="Tequila Dragon's Breath">
+                <h3>Tequila Dragon's Breath</h3>
+                <p>A fiery fusion of tequila, dragon fruit, and smoky bitters.</p>
+            </div>
+            <div class="cocktail">
+                <img src="matcha-yuzu-fizz.jpg" alt="Matcha Yuzu Fizz">
+                <h3>Matcha Yuzu Fizz</h3>
+                <p>A refreshing burst of matcha, yuzu, and gin fizz.</p>
+            </div>
+            <!-- Add more cocktails similarly -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We create cocktails that are not just drinks but full-sensory experiences. Each of our recipes tells a story and evokes emotion, designed to make your event unforgettable.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For booking inquiries or collaborations, reach out to us:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
