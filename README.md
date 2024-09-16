@@ -1,25 +1,31 @@
-# [Your Brand Name] - Cocktail Service Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cocktail Brand - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Cocktail Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Welcome to the official website repository for **[Your Brand Name]**! We provide unique, artistic cocktails designed for parties, events, and collaborations. Our cocktails are more than just drinks – they're full sensory experiences crafted to elevate your events.
+    <section id="home" class="section landing">
+        <h1>Welcome to [Your Brand Name]</h1>
+        <p>Unique, artistic cocktails for parties and events.</p>
+        <a href="menu.html" class="cta-button">Explore Our Menu</a>
+    </section>
 
-## Website Overview
-
-This website was built to showcase our signature cocktail menu, share the story behind our brand, and provide an easy way for clients to contact us for booking inquiries or collaborations.
-
-### Features:
-- **Home Page**: Features a hero section with a call to action to explore our cocktail menu.
-- **Cocktail Menu**: A collection of our signature drinks with images and descriptions.
-- **About Us**: Learn about the inspiration and passion behind our unique cocktails.
-- **Contact Form**: Reach out to us for booking inquiries or event collaborations.
-
-### Structure:
-- **`index.html`**: The main landing page for the website, contains sections for Home, Menu, About Us, and Contact.
-- **`styles.css`**: The CSS file that styles the entire website for a clean and modern look.
-- **`images/`**: Folder for all images used throughout the site, such as cocktail photos and team pictures.
-- **`script.js`**: (Optional) You can add interactive features here in the future, like form validation or animations.
-
-## Installation and Setup
-
-To set up the website locally, follow these steps:
-
-1. **Clone the repository:**
+    <footer>
+        <p>&copy; 2024 [Your Brand Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
